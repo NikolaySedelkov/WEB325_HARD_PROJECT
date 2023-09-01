@@ -28,5 +28,5 @@ void testSum()
 }
 
 int main() {
-
+    cout << "Hello world!";
 }
