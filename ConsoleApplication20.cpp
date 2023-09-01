@@ -8,5 +8,13 @@ int sum(int a, int b) {
 
 int main()
 {
-    cout << "Hello World!\n";
+    int c = 0;
+    if (sum(2, 2) == 4)
+        ++c;
+
+    if (sum(2, -2) == 0)
+        ++c;
+
+    if (sum(INT_MAX, INT_MIN) == 1)
+        ++c;
 }
