@@ -14,7 +14,7 @@ int sum(int mas[], int size) {
     return result;
 }
 
-int main()
+void testSum()
 {
     int c = 0;
     if (sum(2, 2) == 4)
@@ -25,4 +25,8 @@ int main()
 
     if (sum(INT_MAX, INT_MIN) == 1)
         ++c;
+}
+
+int main() {
+
 }
